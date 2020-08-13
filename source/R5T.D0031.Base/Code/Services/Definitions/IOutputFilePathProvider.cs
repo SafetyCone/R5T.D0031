@@ -6,6 +6,6 @@ namespace R5T.D0031
 {
     public interface IOutputFilePathProvider
     {
-        Task<string> GetOutputFilePathAsync();
+        Task<string> GetOutputFilePath();
     }
 }

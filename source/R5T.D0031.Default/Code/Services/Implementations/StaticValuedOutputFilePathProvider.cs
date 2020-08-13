@@ -9,7 +9,7 @@ namespace R5T.D0031.Default
         public static string OutputFilePath { get; set; }
 
 
-        public Task<string> GetOutputFilePathAsync()
+        public Task<string> GetOutputFilePath()
         {
             return Task.FromResult(StaticValuedOutputFilePathProvider.OutputFilePath);
         }
