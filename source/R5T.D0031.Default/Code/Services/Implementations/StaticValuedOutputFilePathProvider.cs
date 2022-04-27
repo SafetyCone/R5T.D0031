@@ -1,10 +1,10 @@
-﻿using System;
-using System.Threading.Tasks;
+using System;
+using System.Threading.Tasks;using R5T.T0064;
 
 
 namespace R5T.D0031.Default
-{
-    public class StaticValuedOutputFilePathProvider : IOutputFilePathProvider
+{[ServiceImplementationMarker]
+    public class StaticValuedOutputFilePathProvider : IOutputFilePathProvider,IServiceImplementation
     {
         public static string OutputFilePath { get; set; }
 
